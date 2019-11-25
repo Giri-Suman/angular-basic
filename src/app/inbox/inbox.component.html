@@ -1,0 +1,32 @@
+<div class="inboxContainer">
+<button *ngIf="archiveYear===undefined" class="btn btn-default reportButton"> REPORT</button>
+<table id="table" class="table table-striped table-bordered table-sm row-border hover">
+        <thead class="theader">
+                <tr>
+                  <th>STATUS</th>
+                  <th>PEX REQUEST ID</th>
+                  <th>PROVIDER NAME</th>
+                  <th>REQUEST TYPE</th>
+                  <th>RECEIVED</th>
+                  <th>CLOSED</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr [ngStyle]="{backgroundColor: d.showAlert===true ? 'antiquewhite' :'none'}" *ngFor="let d of data">
+                  <td *ngIf="d.status==='New'"><img  alt="" src="/assets/imgs/new.PNG">{{d.status}}</td>
+                  <td *ngIf="d.status==='Pending'"><img  alt="" src="/assets/imgs/pending.PNG">{{d.status}}</td>
+                  <td *ngIf="d.status==='Engaged'"><img  alt="" src="/assets/imgs/engaged.PNG">{{d.status}}</td>
+                  <td *ngIf="d.status==='Complete'"><img  alt="" src="/assets/imgs/done.PNG">{{d.status}}</td>
+                  <td *ngIf="d.status==='Error'"><img  alt="" src="/assets/imgs/error.PNG">{{d.status}}</td>
+                  <td *ngIf="d.status==='Closed'"><img  alt="" src="/assets/imgs/closed.PNG">{{d.status}}</td>
+                  <td><a [routerLink]="['/request/MRR']">{{d.providerEngagementRequestIdentifier}}</a></td>
+                  <td>{{d.providerName}}</td>
+                  <td>{{d.capabilityIndicatorDescription}}</td>
+                  <td>{{d.firstTimeSentToHostPlanDate}}</td>
+                  <td>{{d.age}} <span *ngIf="d.showAlert===true"><mat-icon style="color:#d80404;vertical-align:middle">add_alert</mat-icon></span></td>
+                </tr>
+              </tbody>
+</table>
+ 
+</div>
+

@@ -1,0 +1,12 @@
+.logo{
+    margin-top: 9px;
+    margin-bottom: 2px;
+}
+.title{
+    background-color: rgb(130, 65, 192);
+    height: 90px;
+    padding-left: 50px;
+    padding-top: 30px;
+    color:white;
+    font: normal bold 36px/30px Georgia, serif;
+}

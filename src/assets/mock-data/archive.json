@@ -1,0 +1,61 @@
+{		
+   "archive" : [
+     {		
+        "totalNumberOfPages":"3",	
+        "pageNumber" : "2",	
+        "limit":"10",	
+        "year":"2021",	
+        "requests":[	
+        {	
+            "status":"Closed",
+            "providerEngagementRequestIdentifier": "XXXXXXXXXXXXXXXX",
+            "providerName": "XXXXXXXXXXXXXXXX",
+            "capabilityIndicatorDescription": "Star Care Gap",
+            "firstTimeSentToHostPlanDate": "02/23/2020",
+            "closedDate": "02/23/2021"
+        },	
+        {	
+            "status":"Closed",
+            "providerEngagementRequestIdentifier": "XXXXXXXXXXXXXXXX",
+            "providerName": "XXXXXXXXXXXXXXXX",
+            "capabilityIndicatorDescription": "Risk Adjustment Gap",
+            "firstTimeSentToHostPlanDate": "02/23/2020",
+            "closedDate": "02/23/2021"
+        },	
+        {	
+            "status":"Closed",
+            "providerEngagementRequestIdentifier": "XXXXXXXXXXXXXXXX",
+            "providerName": "XXXXXXXXXXXXXXXX",
+            "capabilityIndicatorDescription": "Medical Record Retrieval",
+            
+            "firstTimeSentToHostPlanDate": "02/23/2020",
+            "closedDate": "02/23/2021"
+        }	
+        ]	
+    },		
+    {		
+        "totalNumberOfPages":"3",	
+        "pageNumber" : "2",	
+        "limit":"10",	
+        "year":"2020",	
+        "requests":[	
+        {	
+            "status":"Closed",
+            "providerEngagementRequestIdentifier": "XXXXXXXXXXXXXXXX",
+            "providerName": "XXXXXXXXXXXXXXXX",
+            "capabilityIndicatorDescription": "Star Care Gap",
+            "firstTimeSentToHostPlanDate": "02/23/2020",
+            "closedDate": "02/23/2020"
+        },	
+        {	
+            "status":"Closed",
+            "providerEngagementRequestIdentifier": "XXXXXXXXXXXXXXXX",
+            "providerName": "XXXXXXXXXXXXXXXX",
+            "capabilityIndicatorDescription": "Risk Adjustment Gap",
+            "firstTimeSentToHostPlanDate": "02/23/2020",
+            "closedDate": "02/23/2020"
+        }	
+        ]	
+    }]		
+    }		
+    

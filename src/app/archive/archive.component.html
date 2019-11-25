@@ -1,0 +1,16 @@
+<div class="inboxContainer">
+<mat-accordion>
+    <mat-expansion-panel style="border-bottom: 1px solid #dae6ea;min-height: 60px;" *ngFor="let panel of year">
+     
+      <mat-expansion-panel-header >
+        <mat-panel-title style="font:normal bold 23px/15px Georgia, serif;color:rgb(130, 65, 192);">
+          {{panel}}
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <ng-template matExpansionPanelContent>
+    <app-inbox [archiveYear]="panel"> </app-inbox>
+</ng-template>
+    </mat-expansion-panel>
+   
+  </mat-accordion>
+</div>

@@ -1,0 +1,9 @@
+<div class="mycontainer">
+    <nav *ngIf="path!=='/request/MRR'" class="navbar">
+        <ul class="nav navbar-nav" style="background-color: white; margin-top:20px; border: 2px solid #e2d7d7;" > 
+          <li class="inbox" routerLinkActive="active"><a [routerLink]="['/inbox']">INBOX</a></li>
+          <li class="inbox" routerLinkActive="active" ><a [routerLink]="['/archive']">ARCHIVE</a></li>
+        </ul>
+    </nav>
+    <router-outlet></router-outlet>
+    </div>

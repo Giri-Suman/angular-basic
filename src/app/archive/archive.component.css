@@ -1,0 +1,15 @@
+.inboxContainer{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-right: 50px !important;
+    background-color: white !important;
+   }
+   ::ng-deep .mat-expansion-indicator::after {
+    border-style: solid;
+    border-width: 0 4px 4px 0 !important;
+    
+    color:blue;
+    
+  }
